@@ -1,7 +1,7 @@
 from confluent_kafka import Consumer, KafkaError
 
 
-class MyKafkaConsumer:
+class KonnectStreamConsumer:
     def __init__(self, topic, group_id):
         self.topic = topic
         self.group_id = group_id
@@ -31,5 +31,5 @@ if __name__ == "__main__":
     my_topic = "cdc-events"
     my_group_id = "cdc-consumer-group"
 
-    consumer_instance = MyKafkaConsumer(topic=my_topic, group_id=my_group_id)
+    consumer_instance = KonnectStreamConsumer(topic=my_topic, group_id=my_group_id)
     consumer_instance.consume_messages()
