@@ -28,8 +28,8 @@ class KonnectStreamConsumer:
                 print(f"Received message: {msg.value().decode('utf-8')}")
 
 if __name__ == "__main__":
-    my_topic = "cdc-events"
-    my_group_id = "cdc-consumer-group"
+    topic = "cdc-events"
+    group_id = "cdc-consumer-group"
 
-    consumer_instance = KonnectStreamConsumer(topic=my_topic, group_id=my_group_id)
+    consumer_instance = KonnectStreamConsumer(topic=topic, group_id=group_id)
     consumer_instance.consume_messages()
