@@ -70,4 +70,4 @@ These can be adjusted as needed.
 
 ## Running the Application
 
-After starting the services with Docker Compose, the *konnect-stream-processor consumer* will automatically start consuming events from the specified Kafka topic and index them into OpenSearch. Application logs can be seen using docker logs -f <konnect-stream-processor-container>
+After starting the services with Docker Compose, the *konnect-stream-processor consumer* will automatically start consuming events from the specified Kafka topic and index them into OpenSearch. Application logs can be seen using docker logs -f konnect-stream-processor-container
