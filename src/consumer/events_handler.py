@@ -9,6 +9,10 @@ class EventsHandler:
         self.opensearch_client = OpenSearchClient()
 
     def handle_message(self):
+        """
+        Handle Message Method.
+        Indexes events into opensearch
+        """
         try:
             record = json.loads(self.msg.value().decode("utf-8"))
             # Extract the 'after' part of the record
