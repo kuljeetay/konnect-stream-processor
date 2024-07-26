@@ -4,15 +4,15 @@ This repository implements a Python based Kafka consumer that ingests events fro
 
 ## Table of Contents
 
-- [Kafka Consumer with OpenSearch Integration](#kafka-consumer-with-opensearch-integration)
-  - [Features](#features)
-  - [Project Structure](#project-structure)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-    - [1. Clone the Repository](#1-clone-the-repository)
-    - [2. Build and Run with Docker Compose](#2-build-and-run-with-docker-compose)
-  - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
+
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Build and Run with Docker Compose](#2-build-and-run-with-docker-compose)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
 
 ## Features
 
