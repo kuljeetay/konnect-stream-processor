@@ -1,6 +1,6 @@
 import logging
 from kafka_consumer import KonnectStreamConsumer
-from utils import configure_logging  # signal handlers needed?
+from utils import configure_logging
 from config import KAFKA_CONFIG, KAFKA_TOPIC
 
 
