@@ -54,7 +54,7 @@ cd konnect-stream-processor
 
 To build and start the services defined in docker-compose.yml, run:
 ```sh
-docker-compose up --d
+docker-compose up -d
 ```
 
 ## Configuration
