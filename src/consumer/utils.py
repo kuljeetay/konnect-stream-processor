@@ -5,7 +5,7 @@ from config import LOGGING_CONFIG
 
 def configure_logging():
     """
-    Configures logging settings for the service.
+    Configures logging for the service.
     """
     try:
         logging.basicConfig(
